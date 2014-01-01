@@ -71,7 +71,7 @@
           clearTimeout(timeout);
           pie.value(function(d) {return d[value] });// change the value function
           path = path.data(pie); // calculates new angles
-         path.attr("d",arg); //redraws arcs
+         path.attr("d",arc); //redraws arcs
         }
       });
 
